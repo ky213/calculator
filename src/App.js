@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
-import  {crea} from "react-dom";
 import './App.css';
+import Display from './components/display'
+import Keypad from './components/keypad'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>Hello</h1>
+        <Display/>
+        <Keypad/>
       </div>
     );
   }

@@ -1,8 +1,42 @@
 /* Global */
 .App{
     width:300px;
-    height: 400px;
+    height: 440px;
     background: rgba(0, 0, 0, 0.411);
-    margin: auto;
+    margin:50px auto;
     border-radius:5px;
+    padding-top: 20px;
+    box-shadow: 1px 1px 10px 3px black
+}
+
+/* Display */
+#display{
+    width: 90%;
+    height:80px;
+    margin: 20px auto;
+    border-radius: 5px;
+    text-align: center;
+    padding-bottom: 2px;
+    background:#c3c2ab;
+    box-shadow: inset 1px 1px 1px 1px black;
+}
+
+#display h3{
+    border-top: 1px solid gray;
+    width: 95%;
+    margin: auto;
+    text-align: right;
+}
+
+/* Keypad */
+#keypad{
+    width:240px;
+    margin:auto;
+}
+
+button{
+    width:60px;
+    height:60px;
+    font-weight: bold;
+    font-size: 18px;
 }
