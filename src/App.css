@@ -21,7 +21,11 @@
     box-shadow: inset 1px 1px 1px 1px black;
 }
 
-#display h3{
+#display h1{
+    overflow-x: hidden;
+}
+
+#display h4{
     border-top: 1px solid gray;
     width: 95%;
     margin: auto;

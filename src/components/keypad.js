@@ -3,7 +3,7 @@ import React from 'react'
 
 export default (props) => {
     return (
-    <div id={'keypad'}>
+    <div id={'keypad'} onClick={props.getInput}>
         <div>
             <button>AC</button>
             <button>CE</button>
