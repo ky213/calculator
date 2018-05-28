@@ -46,12 +46,20 @@ class App extends Component {
       let exp = activity.join('').replace(/x/g, "*")
       try {
         let result = eval(exp) + '';
+<<<<<<< HEAD
         if (result.length > 10)
           result = result.slice(0, 11)
         this.setState({
           number: result,
           operation: true,
           activity:[result]
+=======
+        if(result.length > 10)
+          result = result.slice(0,11)
+        this.setState({
+          number: result,
+          operation: true,
+>>>>>>> 26c518af2f4684564129f337a98e680b336e6a44
         })
       } catch (e) {
         this.setState({
